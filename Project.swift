@@ -1,6 +1,6 @@
 @preconcurrency import ProjectDescription
 
-let bundleId = ""
+let scriptPath = "./SwiftFormat/swiftformat.sh"
 
 let project = Project(
     name: "BabyFoodCare",
@@ -17,6 +17,12 @@ let project = Project(
             ),
             sources: ["BabyFoodCare/Sources/**"],
             resources: ["BabyFoodCare/Resources/**"],
+            scripts: [
+                .pre(
+                    script: "bash SwiftFormat/swiftformat.sh",
+                    name: "SwiftFormat"
+                ),
+            ],
             dependencies: []
         ),
         .target(

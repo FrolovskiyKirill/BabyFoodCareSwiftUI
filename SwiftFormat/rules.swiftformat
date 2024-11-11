@@ -1,0 +1,70 @@
+--disable all
+
+--swiftversion 5.7
+
+--enable andOperator #https://github.com/nicklockwood/SwiftFormat/blob/master/Rules.md#andoperator
+--enable anyObjectProtocol #https://github.com/nicklockwood/SwiftFormat/blob/master/Rules.md#anyobjectprotocol
+--enable assertionFailures #https://github.com/nicklockwood/SwiftFormat/blob/master/Rules.md#assertionfailures
+--enable blankLineAfterImports #https://github.com/nicklockwood/SwiftFormat/blob/master/Rules.md#blanklineafterimports
+--enable blankLinesAroundMark #https://github.com/nicklockwood/SwiftFormat/blob/master/Rules.md#blanklinesaroundmark
+--enable blankLinesAtEndOfScope #https://github.com/nicklockwood/SwiftFormat/blob/master/Rules.md#blanklinesatendofscope
+--enable blankLinesAtStartOfScope #https://github.com/nicklockwood/SwiftFormat/blob/master/Rules.md#blanklinesatstartofscope
+--enable blankLinesBetweenImports #https://github.com/nicklockwood/SwiftFormat/blob/master/Rules.md#blanklinesbetweenimports
+--enable blankLinesBetweenScopes #https://github.com/nicklockwood/SwiftFormat/blob/master/Rules.md#blanklinesbetweenscopes
+--enable braces #https://github.com/nicklockwood/SwiftFormat/blob/master/Rules.md#braces
+--enable consecutiveBlankLines #https://github.com/nicklockwood/SwiftFormat/blob/master/Rules.md#consecutiveblanklines
+--enable consecutiveSpaces #https://github.com/nicklockwood/SwiftFormat/blob/master/Rules.md#consecutivespaces
+--enable duplicateImports #https://github.com/nicklockwood/SwiftFormat/blob/master/Rules.md#duplicateimports
+--enable elseOnSameLine #https://github.com/nicklockwood/SwiftFormat/blob/master/Rules.md#elseonsameline
+--enable redundantInit #https://github.com/nicklockwood/SwiftFormat/blob/master/Rules.md#redundantinit
+--enable emptyBraces #https://github.com/nicklockwood/SwiftFormat/blob/master/Rules.md#emptybraces
+--emptybraces spaced
+--enable enumNamespaces #https://github.com/nicklockwood/SwiftFormat/blob/master/Rules.md#enumnamespaces
+--enable extensionAccessControl #https://github.com/nicklockwood/SwiftFormat/blob/master/Rules.md#extensionaccesscontrol
+--enable genericExtensions #https://github.com/nicklockwood/SwiftFormat/blob/master/Rules.md#genericextensions
+--enable hoistPatternLet #https://github.com/nicklockwood/SwiftFormat/blob/master/Rules.md#hoistpatternlet
+--enable indent #https://github.com/nicklockwood/SwiftFormat/blob/master/Rules.md#indent
+--trimwhitespace nonblank-lines
+--enable leadingDelimiters #https://github.com/nicklockwood/SwiftFormat/blob/master/Rules.md#leadingdelimiters
+--enable modifierOrder #https://github.com/nicklockwood/SwiftFormat/blob/master/Rules.md#modifierorder
+--enable opaqueGenericParameters #https://github.com/nicklockwood/SwiftFormat/blob/master/Rules.md#opaquegenericparameters
+--enable redundantBreak #https://github.com/nicklockwood/SwiftFormat/blob/master/Rules.md#redundantbreak
+--enable redundantClosure #https://github.com/nicklockwood/SwiftFormat/blob/master/Rules.md#redundantclosure
+--enable redundantExtensionACL #https://github.com/nicklockwood/SwiftFormat/blob/master/Rules.md#redundantextensionacl
+--enable redundantFileprivate #https://github.com/nicklockwood/SwiftFormat/blob/master/Rules.md#redundantfileprivate
+--enable redundantGet #https://github.com/nicklockwood/SwiftFormat/blob/master/Rules.md#redundantget
+--enable redundantInit #https://github.com/nicklockwood/SwiftFormat/blob/master/Rules.md#redundantinit
+--enable redundantLetError #https://github.com/nicklockwood/SwiftFormat/blob/master/Rules.md#redundantleterror
+--enable redundantNilInit #https://github.com/nicklockwood/SwiftFormat/blob/master/Rules.md#redundantnilinit
+--enable redundantOptionalBinding #https://github.com/nicklockwood/SwiftFormat/blob/master/Rules.md#redundantoptionalbinding
+--enable redundantParens #https://github.com/nicklockwood/SwiftFormat/blob/master/Rules.md#redundantparens
+--enable redundantPattern #https://github.com/nicklockwood/SwiftFormat/blob/master/Rules.md#redundantpattern
+--enable redundantRawValues #https://github.com/nicklockwood/SwiftFormat/blob/master/Rules.md#redundantrawvalues
+--enable redundantReturn #https://github.com/nicklockwood/SwiftFormat/blob/master/Rules.md#redundantreturn
+--enable redundantSelf #https://github.com/nicklockwood/SwiftFormat/blob/master/Rules.md#redundantself
+--enable redundantType #https://github.com/nicklockwood/SwiftFormat/blob/master/Rules.md#redundanttype
+--enable redundantVoidReturnType #https://github.com/nicklockwood/SwiftFormat/blob/master/Rules.md#redundantvoidreturntype
+--enable semicolons #https://github.com/nicklockwood/SwiftFormat/blob/master/Rules.md#semicolons
+--enable sortImports #https://github.com/nicklockwood/SwiftFormat/blob/main/Rules.md#sortimports
+--enable spaceAroundBraces #https://github.com/nicklockwood/SwiftFormat/blob/master/Rules.md#spacearoundbraces
+--enable spaceAroundBrackets #https://github.com/nicklockwood/SwiftFormat/blob/master/Rules.md#spacearoundbrackets
+--enable spaceAroundComments #https://github.com/nicklockwood/SwiftFormat/blob/master/Rules.md#spacearoundcomments
+--enable spaceAroundGenerics #https://github.com/nicklockwood/SwiftFormat/blob/master/Rules.md#spacearoundgenerics
+--enable spaceAroundOperators #https://github.com/nicklockwood/SwiftFormat/blob/master/Rules.md#spacearoundoperators
+--enable spaceAroundParens #https://github.com/nicklockwood/SwiftFormat/blob/master/Rules.md#spacearoundparens
+--enable spaceInsideBraces #https://github.com/nicklockwood/SwiftFormat/blob/master/Rules.md#spaceinsidebraces
+--enable spaceInsideBrackets #https://github.com/nicklockwood/SwiftFormat/blob/master/Rules.md#spaceinsidebrackets
+--enable spaceInsideComments #https://github.com/nicklockwood/SwiftFormat/blob/master/Rules.md#spaceinsidecomments
+--enable spaceInsideGenerics #https://github.com/nicklockwood/SwiftFormat/blob/master/Rules.md#spaceinsidegenerics
+--enable spaceInsideParens #https://github.com/nicklockwood/SwiftFormat/blob/master/Rules.md#spaceinsideparens
+--enable strongifiedSelf #https://github.com/nicklockwood/SwiftFormat/blob/master/Rules.md#strongifiedself
+--enable todos #https://github.com/nicklockwood/SwiftFormat/blob/master/Rules.md#todos
+--enable trailingClosures #https://github.com/nicklockwood/SwiftFormat/blob/master/Rules.md#trailingclosures
+--enable trailingSpace #https://github.com/nicklockwood/SwiftFormat/blob/master/Rules.md#trailingspace
+--enable typeSugar #https://github.com/nicklockwood/SwiftFormat/blob/master/Rules.md#typesugar
+--enable void #https://github.com/nicklockwood/SwiftFormat/blob/master/Rules.md#void
+--enable wrapArguments #https://github.com/nicklockwood/SwiftFormat/blob/main/Rules.md#wraparguments
+--wraparguments before-first
+--wrapparameters before-first
+--wrapcollections before-first
+--enable wrapEnumCases #https://github.com/nicklockwood/SwiftFormat/blob/master/Rules.md#wrapenumcases
