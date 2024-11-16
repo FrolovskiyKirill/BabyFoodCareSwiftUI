@@ -6,4 +6,4 @@ start:
 	@open BabyFoodCare.xcworkspace
 
 clean:
-	@rm -rf ~/Library/Developer/Xcode/DerivedData/BabyFoodCare*
+	@rm -rf ~/Library/Developer/Xcode/DerivedData/BabyFoodCareSwiftUI*
