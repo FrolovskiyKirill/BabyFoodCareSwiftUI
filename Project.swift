@@ -4,6 +4,11 @@ let scriptPath = "./SwiftFormat/swiftformat.sh"
 
 let project = Project(
     name: "BabyFoodCare",
+    packages: [
+        .remote(url: "https://github.com/uber/needle.git", requirement: .upToNextMajor(from: "0.18.0")),
+        .remote(url: "https://github.com/ozontech/SUINavigation.git", requirement: .upToNextMajor(from: "1.11.0")),
+        .remote(url: "https://github.com/Swinject/Swinject.git", requirement: .upToNextMajor(from: "2.8.0"))
+    ],
     targets: [
         .target(
             name: "BabyFoodCare",
@@ -23,7 +28,11 @@ let project = Project(
                     name: "SwiftFormat"
                 ),
             ],
-            dependencies: []
+            dependencies: [
+                .package(product: "Swinject", type: .runtime),
+                .package(product: "SUINavigation", type: .runtime),
+                .package(product: "NeedleFoundation", type: .runtime)
+            ]
         ),
         .target(
             name: "BabyFoodCareTests",
